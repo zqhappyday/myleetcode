@@ -14,7 +14,7 @@
 解空间有限，为 k 个解，直接暴力求解就行
 '''
 class Solution:
-    def maxScore(self, cardPoints: List[int], k: int) -> int:
+    def maxScore(self, cardPoints: list[int], k: int) -> int:
         res = sum(cardPoints[:k])
         t = res
         for i in range(k):
